@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+main {
+	width: 960px;
+	margin: 50px auto;
+}
+.category {
+	float: left;
+	width: 290px;
+    margin-right: 30px;
+    padding: 10px;
+    position: relative;
+    border: 3px solid #eee;
+}
+.category-image1 {
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+    background-position: bottom;
+}
+.category-image2 {
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+    background-position: bottom;
+}
+.category-image3 {
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+    background-position: bottom;
+}
+.category-number {
+	position: absolute;
+	top: 0;
+    left: 0;
+    background-color: orange;
+    color: white;
+    padding: 5px;
+}
+@media screen and (max-width: 768px) {
+	main {
+		width: :90%;
+}
+.category {
+	float: none;
+	width: 90%;
+}
+.category-image1 {
+	width: 90%;
+}
+.category-image2 {
+	width: 90%;
+}
+.category-image3 {
+	width: 90%;
+}}
