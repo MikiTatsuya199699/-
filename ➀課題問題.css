@@ -48,18 +48,26 @@ main {
 }
 @media screen and (max-width: 768px) {
 	main {
-		width: :90%;
+		width: 90%;
+		margin: 50px auto;
 }
 .category {
 	float: none;
 	width: 90%;
+	margin: auto;
 }
 .category-image1 {
 	width: 90%;
+	margin: auto;
+	background-position: center;
 }
 .category-image2 {
 	width: 90%;
+	margin: auto;
+	background-position: center;
 }
 .category-image3 {
 	width: 90%;
+	margin: auto;
+	background-position: center;
 }}
