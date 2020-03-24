@@ -53,21 +53,22 @@ main {
 }
 .category {
 	float: none;
-	width: 90%;
-	margin: auto;
+	margin-bottom: 20px;
+	width: 100%;
+	background-position: center;
 }
 .category-image1 {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	background-position: center;
 }
 .category-image2 {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	background-position: center;
 }
 .category-image3 {
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	background-position: center;
 }}
